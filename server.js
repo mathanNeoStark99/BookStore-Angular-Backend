@@ -7,7 +7,7 @@ app.use(express.json());
 const cors = require('cors');
 
 app.use(cors({
-  origin: ['http://localhost:4200']
+  origin: ['http://ec2-44-203-188-65.compute-1.amazonaws.com','http://44.203.188.65']
 }));
 
 app.disable("x-powered-by");
